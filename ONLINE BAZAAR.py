@@ -5,7 +5,7 @@ sum = 0
 while 1:
     msgbox("Hello, world!")
     msg ="Choose a product from below" 
-    title = "Havemore" 
+    title = "Havemore Shopping Centre" 
     choices = ["Energy Drink", "Cookies", "Shampoo"]
     choice = choicebox(msg, title, choices)
     msgbox("You chose: " + str(choice))
